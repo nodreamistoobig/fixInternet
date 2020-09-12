@@ -9,8 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
         int N, edges=0, a, b;
-        //try(FileReader reader = new FileReader("C:/Users/user/Desktop/Катя/Java/fixInternet/out/production/fixInternet/com/company/input.txt"))
-        try(FileReader reader = new FileReader("C:/Users/user/Desktop/Катя/Java/fixInternet/out/production/fixInternet/com/company/input2.txt"))
+         //try(FileReader reader = new FileReader("input.txt"))
+        try(FileReader reader = new FileReader("input2.txt"))
         {
             Scanner sc = new Scanner(reader);
             N = sc.nextInt();
